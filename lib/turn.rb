@@ -15,7 +15,7 @@ def valid_move?(board,index)
 end
 
 def position_taken?(board,index) 
-  board == (X)
+  board == "X" board == "O"
 def move()
 end
 def turn()
