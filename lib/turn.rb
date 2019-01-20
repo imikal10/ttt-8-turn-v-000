@@ -30,4 +30,5 @@ def turn(board)
      move(board,index)
    else
      puts "Whoops! That's not a valid move"
+     turn(board)
 end
