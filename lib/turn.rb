@@ -6,4 +6,6 @@ def display_board
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def user_input
+def input_to_indes(user_input)
+  user_input.to_i -1 
+end
