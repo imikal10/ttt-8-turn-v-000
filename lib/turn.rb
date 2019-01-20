@@ -28,7 +28,7 @@ def turn(board)
    index = input_to_index(input)
    if valid_move?(board,index)
      move(board,index)
-   else
+     display_board(board)
      puts "Whoops! That's not a valid move"
      turn(board)
 end
